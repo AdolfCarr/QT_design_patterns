@@ -32,7 +32,7 @@ void FactoryMethodClient::foo()
 
 void FactoryMethodClient::bar()
 {
-    auto car = CarFactory::createCar("F");// Type could be "F", "H", or "T" if different no car type is instanciated
+    auto car = CarFactory::createCar("T");// Type could be "F", "H", or "T" if different no car type is instanciated
 
     if (car != nullptr) {
         car->drive();
