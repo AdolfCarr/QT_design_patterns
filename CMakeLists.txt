@@ -23,6 +23,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(Qt_design_patterns
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        singleton/singletonmaindialog.h singleton/singletonmaindialog.cpp singleton/singletonmaindialog.ui
+        singleton/singletonauxdialog.h singleton/singletonauxdialog.cpp singleton/singletonauxdialog.ui
+        singleton/logger.h singleton/logger.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Qt_design_patterns APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
