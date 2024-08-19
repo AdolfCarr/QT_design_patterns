@@ -3,6 +3,7 @@
 #include <QString>
 #include "fiat.h"
 #include "honda.h"
+#include "toyota.h"
 
 /*
  * The constructor simulates ordering a car from the parking lot management base on the car type
@@ -16,6 +17,8 @@ FactoryMethodClient::FactoryMethodClient() {
         car = new Fiat();
     } else if(type == "H"){
         car = new Honda();
+    }else if(type == "T"){
+        car = new Toyota();
     }
     if (car != nullptr) {
         car->drive();
@@ -33,6 +36,8 @@ void FactoryMethodClient::foo()
         car = new Fiat();
     } else if(type == "H"){
         car = new Honda();
+    }else if(type == "T"){
+        car = new Toyota();
     }
     if (car != nullptr) {
         car->drive();
@@ -42,11 +47,13 @@ void FactoryMethodClient::foo()
 void FactoryMethodClient::bar()
 {
     BaseCar *car = nullptr;
-    QString type = "F";  // Type could be "F", "H", or "T"
+    QString type = "T";  // Type could be "F", "H", or "T"
     if(type == "F"){
         car = new Fiat();
     } else if(type == "H"){
         car = new Honda();
+    }else if(type == "T"){
+        car = new Toyota();
     }
     if (car != nullptr) {
         car->drive();
