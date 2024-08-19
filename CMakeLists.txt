@@ -26,6 +26,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         singleton/singletonmaindialog.h singleton/singletonmaindialog.cpp singleton/singletonmaindialog.ui
         singleton/singletonauxdialog.h singleton/singletonauxdialog.cpp singleton/singletonauxdialog.ui
         singleton/logger.h singleton/logger.cpp
+        factory_method_v1/factorymethodclient.h factory_method_v1/factorymethodclient.cpp
+        factory_method_v1/toyota.h factory_method_v1/toyota.cpp
+        factory_method_v1/honda.h factory_method_v1/honda.cpp
+        factory_method_v1/fiat.h factory_method_v1/fiat.cpp
+        factory_method_v1/basecar.h factory_method_v1/basecar.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Qt_design_patterns APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

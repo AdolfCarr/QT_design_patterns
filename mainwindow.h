@@ -20,6 +20,8 @@ public:
 private slots:
     void on_btn_singleton_clicked();
 
+    void on_btn_factory_method_v1_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

@@ -84,6 +84,19 @@
      <string>Creational patterns</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="btn_factory_method_v1">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>130</y>
+      <width>131</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Factory Method v1</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>
