@@ -1,0 +1,5 @@
+# Ignore everything in the build directory
+build/
+
+# Uncomment below if you want to exclude some specific files
+# !build/.keep
