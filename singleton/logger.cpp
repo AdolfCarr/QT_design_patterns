@@ -2,6 +2,8 @@
 #include <QDir>
 #include <QDateTime>
 
+Logger *Logger::_instance = nullptr;//added to implement singleton pattern
+
 Logger::Logger() {
 
     // Define the relative path to the 'singleton' folder
@@ -25,4 +27,12 @@ void Logger::log(QString message){
 Logger::~Logger(){
     _logFile->close();
     delete _logFile;
+}
+
+//added to implement singleton pattern
+Logger *Logger::getInstance(){
+    if(_instance ==nullptr){
+        _instance = new Logger();
+    }
+    return _instance;
 }
