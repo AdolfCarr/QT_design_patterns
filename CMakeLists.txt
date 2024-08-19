@@ -31,6 +31,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         factory_method_v1/honda.h factory_method_v1/honda.cpp
         factory_method_v1/fiat.h factory_method_v1/fiat.cpp
         factory_method_v1/basecar.h factory_method_v1/basecar.cpp
+        factory_method_v1/carfactory.h factory_method_v1/carfactory.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Qt_design_patterns APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

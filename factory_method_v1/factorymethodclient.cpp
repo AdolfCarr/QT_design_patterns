@@ -3,7 +3,7 @@
 #include <QString>
 #include "fiat.h"
 #include "honda.h"
-#include "toyota.h"
+#include "carfactory.h"
 
 /*
  * The constructor simulates ordering a car from the parking lot management base on the car type
@@ -11,15 +11,8 @@
 
 FactoryMethodClient::FactoryMethodClient() {
 
-    BaseCar *car = nullptr;
-    QString type = "F";  // Type could be "F", "H", or "T"
-    if(type == "F"){
-        car = new Fiat();
-    } else if(type == "H"){
-        car = new Honda();
-    }else if(type == "T"){
-        car = new Toyota();
-    }
+    auto car = CarFactory::createCar("F");// Type could be "F", "H", or "T" if different no car type is instanciated
+
     if (car != nullptr) {
         car->drive();
     }
@@ -30,15 +23,8 @@ FactoryMethodClient::FactoryMethodClient() {
 
 void FactoryMethodClient::foo()
 {
-    BaseCar *car = nullptr;
-    QString type = "H";  // Type could be "F", "H", or "T"
-    if(type == "F"){
-        car = new Fiat();
-    } else if(type == "H"){
-        car = new Honda();
-    }else if(type == "T"){
-        car = new Toyota();
-    }
+    auto car = CarFactory::createCar("H");// Type could be "F", "H", or "T" if different no car type is instanciated
+
     if (car != nullptr) {
         car->drive();
     }
@@ -46,15 +32,8 @@ void FactoryMethodClient::foo()
 
 void FactoryMethodClient::bar()
 {
-    BaseCar *car = nullptr;
-    QString type = "T";  // Type could be "F", "H", or "T"
-    if(type == "F"){
-        car = new Fiat();
-    } else if(type == "H"){
-        car = new Honda();
-    }else if(type == "T"){
-        car = new Toyota();
-    }
+    auto car = CarFactory::createCar("F");// Type could be "F", "H", or "T" if different no car type is instanciated
+
     if (car != nullptr) {
         car->drive();
     }
