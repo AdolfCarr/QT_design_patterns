@@ -45,7 +45,7 @@ In this project, the `FactoryMethodClient` class interacts with various car mode
 
 **Factory Method Applied**
 
-- Commit `ee176c52a4b471696e687c464b6ffc9faeffc4f5`: This commit extends the `CarFactory` class to support the addition of a new car model, `Toyota`. The `createCar()` method was updated to handle the "T" type for `Toyota`, reflecting the ease of extending the factory method to accommodate new car models. The `FactoryMethodClient` class demonstrates the integration of the new model, showing how straightforward it is to add new types with the Factory Method pattern.
+- Commit `aa4a252eafb8d44ae2e0e7c1182480d5253845f8`: This commit extends the `CarFactory` class to support the addition of a new car model, `Toyota`. The `createCar()` method was updated to handle the "T" type for `Toyota`, reflecting the ease of extending the factory method to accommodate new car models. The `FactoryMethodClient` class demonstrates the integration of the new model, showing how straightforward it is to add new types with the Factory Method pattern.
 
 **Factory Method Not Implemented**
 
