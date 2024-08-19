@@ -1,7 +1,0 @@
-Sun Aug 18 21:38:03 2024 -- Action 1, Clicked 
-Sun Aug 18 21:38:06 2024 -- Action 1, Clicked 
-Sun Aug 18 21:38:07 2024 -- Goto Dialog 2, Clicked 
-Sun Aug 18 21:38:14 2024 -- Action 1, Clicked 
-Sun Aug 18 21:38:14 2024 -- Action 1, Clicked 
-Sun Aug 18 21:38:17 2024 -- Goto Dialog 2, Clicked 
-Sun Aug 18 21:38:30 2024 -- Singleton, Closed 

@@ -6,7 +6,8 @@ SingletonAuxDialog::SingletonAuxDialog(QWidget *parent)
     , ui(new Ui::SingletonAuxDialog)
 {
     ui->setupUi(this);
-    _logger = new Logger();
+    //_logger = new Logger();//Commented to implement singleton pattern
+    _logger = Logger::getInstance();//Added to implement singleton pattern
 }
 
 SingletonAuxDialog::~SingletonAuxDialog()
