@@ -3,6 +3,7 @@
 
 #include <QDialog>
 #include "singletonauxdialog.h"
+#include "logger.h"
 
 namespace Ui {
 class SingletonMainDialog;
@@ -25,7 +26,7 @@ private slots:
 
 private:
     Ui::SingletonMainDialog *ui;
-    SingletonAuxDialog _dlg;
+    Logger *_logger;
 };
 
 #endif // SINGLETONMAINDIALOG_H
