@@ -19,7 +19,7 @@ the implementation of that design pattern in real-time.
     - **Creational Patterns:**
 
         -  [**Singleton:**](singleton/README.md) Demonstrated using the Logger class. When the 'Singleton' button is pressed, the application ensures that only one instance of the Logger class is created, preventing the creation of multiple log files during the application's runtime.
-        - **Factory Method:** Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
+        -  [**Factory Method:**](factory_method_v1/README.md) Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
         - **Abstract Factory:** Demonstrates how to provide an interface for creating families of related or dependent objects without specifying their concrete classes.
     - **Structural Patterns:**
 
