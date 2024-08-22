@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
+<<<<<<< HEAD
    <string>Abstract Factory Client</string>
+=======
+   <string>Dialog</string>
+>>>>>>> ee0dc55 (Created UI for the Abstract method demonstration)
   </property>
   <widget class="QWidget" name="">
    <property name="geometry">
