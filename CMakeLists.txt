@@ -37,6 +37,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         abstract_factory/rectangle.h abstract_factory/rectangle.cpp
         abstract_factory/roundedsquare.h abstract_factory/roundedsquare.cpp
         abstract_factory/roundedrectangle.h abstract_factory/roundedrectangle.cpp
+        abstract_factory/shapefactory.h abstract_factory/shapefactory.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Qt_design_patterns APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
