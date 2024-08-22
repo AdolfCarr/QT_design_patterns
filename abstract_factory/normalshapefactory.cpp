@@ -11,3 +11,8 @@ Shape *NormalShapeFactory::getRectangle()
 {
     return new Rectangle();
 }
+
+Shape *NormalShapeFactory::getTriangle()
+{
+    return new Triangle();
+}

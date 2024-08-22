@@ -4,6 +4,7 @@
 #include "shapefactory.h"
 #include "square.h"
 #include "rectangle.h"
+#include "triangle.h"
 
 class NormalShapeFactory : public ShapeFactory
 {
@@ -14,6 +15,7 @@ public:
 public:
     Shape *getSquare();
     Shape *getRectangle();
+    Shape *getTriangle();
 };
 
 #endif // NORMALSHAPEFACTORY_H
