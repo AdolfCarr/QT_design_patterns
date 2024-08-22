@@ -21,7 +21,6 @@ void AbstractFactoryDialog::on_btn_rounded_shape_clicked()
     qDebug() << "--- Factory of Rounded Shapes Invoked ---";
     _shapeFactory = new RoundedShapeFactory();
     drawShapes();
-
 }
 
 
@@ -38,6 +37,7 @@ void AbstractFactoryDialog::drawShapes()
         _shapeFactory->getRectangle()->draw();
         _shapeFactory->getSquare()->draw();
         _shapeFactory->getTriangle()->draw();
+
     }
     qDebug() << "\n";
 }

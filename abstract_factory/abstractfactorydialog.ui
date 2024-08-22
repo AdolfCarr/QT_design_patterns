@@ -12,10 +12,14 @@
   </property>
   <property name="windowTitle">
 <<<<<<< HEAD
+<<<<<<< HEAD
    <string>Abstract Factory Client</string>
 =======
    <string>Dialog</string>
 >>>>>>> ee0dc55 (Created UI for the Abstract method demonstration)
+=======
+   <string>Abstract Factory Client</string>
+>>>>>>> adb78dd (Abstract factory pattern finished)
   </property>
   <widget class="QWidget" name="">
    <property name="geometry">
