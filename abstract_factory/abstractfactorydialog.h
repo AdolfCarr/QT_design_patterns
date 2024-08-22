@@ -2,6 +2,9 @@
 #define ABSTRACTFACTORYDIALOG_H
 
 #include <QDialog>
+#include "shapefactory.h"
+#include "roundedshapefactory.h"
+#include "normalshapefactory.h"
 
 namespace Ui {
 class AbstractFactoryDialog;
@@ -22,6 +25,8 @@ private slots:
 
 private:
     Ui::AbstractFactoryDialog *ui;
+    ShapeFactory * _shapeFactory;
+    void drawShapes();
 };
 
 #endif // ABSTRACTFACTORYDIALOG_H
