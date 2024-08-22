@@ -97,6 +97,19 @@
      <string>Factory Method v1</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="btn_abstrac_factory">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>130</y>
+      <width>111</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Abstract Factory</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>
