@@ -37,7 +37,6 @@ void AbstractFactoryDialog::drawShapes()
         _shapeFactory->getRectangle()->draw();
         _shapeFactory->getSquare()->draw();
         _shapeFactory->getTriangle()->draw();
-
     }
     qDebug() << "\n";
 }
